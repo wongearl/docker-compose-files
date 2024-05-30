@@ -168,5 +168,4 @@ services:
      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
      - ELASTIC_HOSTS=https://es01:9200
      - KIBANA_HOSTS=http://kibana:5601
-     - LOGSTASH_HOSTS=http://logstash01:9600
 
