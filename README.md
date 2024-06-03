@@ -1,3 +1,29 @@
+## 相关命令
+
+### 前台启动
+
+docker-compose up
+
+### 后台启动
+
+docker-compose up -d
+
+### 启动工程中所有服务的容器
+
+docker-compose start
+
+### 停止工程中所有服务的容器
+
+docker-compose stop
+
+### 停止并删除工程中所有服务的容器、网络、数据卷
+
+docker-compose down -v
+
+### 停止并删除工程中所有服务的容器、网络、镜像
+
+docker-compose down --rmi all
+
 ## 对虚拟内存配置错误进行故障排查
 当首次启动 Elasticsearch 节点时，许多用户会遇到虚拟内存配置方面的问题，并收到错误消息，例如：
 ```
